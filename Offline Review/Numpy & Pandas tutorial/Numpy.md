@@ -36,8 +36,8 @@ print(x)
 int64
 [1 2 3]
 ```
- * 리스트와 같이 보이지만, 타입을 찍어보면 numpy.ndarray가 찍힙니다.
- * numpy에서는 datatype을 .dtype로 확인할 수 있습니다.
+ * 리스트와 같이 보이지만, 타입을 찍어보면 numpy.ndarray 인것을 확인할 수 있습니다.
+ * numpy에서는 datatype을 '변수'.dtype로 확인할 수 있습니다.
 
 <br>
 ### DataType
@@ -187,7 +187,7 @@ print(a.shape)
 
 2) Transpose
 
- * 우하양 대각선을 축으로 반전시킵니다.
+ * 행과 열의 위치를 바꿔줍니다.
 
 ```python
 import numpy as np
@@ -229,7 +229,7 @@ print(np.ones((2,3,4),dtype=np.int16).size)
 
  [[1 1 1 1]
   [1 1 1 1]
-  [1 1 1 1]]]
+  [1 1 1 1]]] 
   
 (2, 3, 4)
 

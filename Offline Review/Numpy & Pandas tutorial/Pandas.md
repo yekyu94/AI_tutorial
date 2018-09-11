@@ -6,4 +6,8 @@
 `import pandas as pd`<br>
  (모든 예제는, 위와같이 import가 된 상황을 가정합니다.)
  
- Jupyter Notebook으로 작성된 글이 포함되어있습니다.
+ <br>
+ Jupyter Notebook으로 작성된 글을 참조해주세요.<br>
+ 
+  * pandas_01.ipynb
+  
